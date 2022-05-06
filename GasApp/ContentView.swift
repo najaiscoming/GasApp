@@ -2,15 +2,14 @@
 //  ContentView.swift
 //  GasApp
 //
-//  Created by Saran Noyprecha on 5/5/2565 BE.
+//  Created by Saran Noyprecha
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+       Home()
     }
 }
 

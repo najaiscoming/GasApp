@@ -7,18 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9377117F2824867F00ED1BC1 /* itemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9377117E2824867F00ED1BC1 /* itemView.swift */; };
+		93771182282487C200ED1BC1 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 93771181282487C200ED1BC1 /* SDWebImageSwiftUI */; };
+		93771184282488E100ED1BC1 /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93771183282488E100ED1BC1 /* CartModel.swift */; };
 		93ACFD692823F7A300DD97C2 /* GasAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ACFD682823F7A300DD97C2 /* GasAppApp.swift */; };
 		93ACFD6B2823F7A300DD97C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ACFD6A2823F7A300DD97C2 /* ContentView.swift */; };
 		93ACFD6D2823F7A900DD97C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93ACFD6C2823F7A900DD97C2 /* Assets.xcassets */; };
 		93ACFD702823F7A900DD97C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93ACFD6F2823F7A900DD97C2 /* Preview Assets.xcassets */; };
+		93ACFD7A28241BBF00DD97C2 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93ACFD7928241BBF00DD97C2 /* Inter-Regular.ttf */; };
+		93ACFD7C28241C9000DD97C2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ACFD7B28241C9000DD97C2 /* Home.swift */; };
+		93ACFD7E28241D4700DD97C2 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ACFD7D28241D4700DD97C2 /* Menu.swift */; };
+		93ACFD8028241D6900DD97C2 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ACFD7F28241D6900DD97C2 /* CartView.swift */; };
+		93ACFD8228241D8500DD97C2 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ACFD8128241D8500DD97C2 /* HomeModel.swift */; };
+		93ACFD8428242A5F00DD97C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93ACFD8328242A5F00DD97C2 /* GoogleService-Info.plist */; };
+		93C7BD1F282476800072F947 /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7BD1E282476800072F947 /* item.swift */; };
+		BE36D3A3E3CD32DDED97DF2B /* Pods_GasApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D211E3F8D981A39C7C3FEF /* Pods_GasApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33927CB44BF329E64ADE45F5 /* Pods-GasApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GasApp.release.xcconfig"; path = "Target Support Files/Pods-GasApp/Pods-GasApp.release.xcconfig"; sourceTree = "<group>"; };
+		9377117E2824867F00ED1BC1 /* itemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemView.swift; sourceTree = "<group>"; };
+		93771183282488E100ED1BC1 /* CartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
 		93ACFD652823F7A300DD97C2 /* GasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93ACFD682823F7A300DD97C2 /* GasAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasAppApp.swift; sourceTree = "<group>"; };
 		93ACFD6A2823F7A300DD97C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		93ACFD6C2823F7A900DD97C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93ACFD6F2823F7A900DD97C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93ACFD7828241B6200DD97C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		93ACFD7928241BBF00DD97C2 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		93ACFD7B28241C9000DD97C2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		93ACFD7D28241D4700DD97C2 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		93ACFD7F28241D6900DD97C2 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		93ACFD8128241D8500DD97C2 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		93ACFD8328242A5F00DD97C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		93C7BD1E282476800072F947 /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
+		96D211E3F8D981A39C7C3FEF /* Pods_GasApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GasApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A013B8BBCC4C9A2248451A75 /* Pods-GasApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GasApp.debug.xcconfig"; path = "Target Support Files/Pods-GasApp/Pods-GasApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +50,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93771182282487C200ED1BC1 /* SDWebImageSwiftUI in Frameworks */,
+				BE36D3A3E3CD32DDED97DF2B /* Pods_GasApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C513D0396FD59A1D9C98EB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A013B8BBCC4C9A2248451A75 /* Pods-GasApp.debug.xcconfig */,
+				33927CB44BF329E64ADE45F5 /* Pods-GasApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		93ACFD5C2823F7A300DD97C2 = {
 			isa = PBXGroup;
 			children = (
 				93ACFD672823F7A300DD97C2 /* GasApp */,
 				93ACFD662823F7A300DD97C2 /* Products */,
+				3C513D0396FD59A1D9C98EB4 /* Pods */,
+				D7E14C669D1C1799499AC1D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +88,18 @@
 		93ACFD672823F7A300DD97C2 /* GasApp */ = {
 			isa = PBXGroup;
 			children = (
+				93ACFD7828241B6200DD97C2 /* Info.plist */,
 				93ACFD682823F7A300DD97C2 /* GasAppApp.swift */,
 				93ACFD6A2823F7A300DD97C2 /* ContentView.swift */,
+				93ACFD7B28241C9000DD97C2 /* Home.swift */,
+				9377117E2824867F00ED1BC1 /* itemView.swift */,
+				93771183282488E100ED1BC1 /* CartModel.swift */,
+				93C7BD1E282476800072F947 /* item.swift */,
+				93ACFD7D28241D4700DD97C2 /* Menu.swift */,
+				93ACFD7F28241D6900DD97C2 /* CartView.swift */,
+				93ACFD8128241D8500DD97C2 /* HomeModel.swift */,
+				93ACFD8328242A5F00DD97C2 /* GoogleService-Info.plist */,
+				93ACFD7928241BBF00DD97C2 /* Inter-Regular.ttf */,
 				93ACFD6C2823F7A900DD97C2 /* Assets.xcassets */,
 				93ACFD6E2823F7A900DD97C2 /* Preview Content */,
 			);
@@ -67,6 +114,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D7E14C669D1C1799499AC1D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96D211E3F8D981A39C7C3FEF /* Pods_GasApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +129,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93ACFD732823F7A900DD97C2 /* Build configuration list for PBXNativeTarget "GasApp" */;
 			buildPhases = (
+				648B14B53917380D4D042933 /* [CP] Check Pods Manifest.lock */,
 				93ACFD612823F7A300DD97C2 /* Sources */,
 				93ACFD622823F7A300DD97C2 /* Frameworks */,
 				93ACFD632823F7A300DD97C2 /* Resources */,
+				0AC84E2DA1D764FD05959801 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = GasApp;
+			packageProductDependencies = (
+				93771181282487C200ED1BC1 /* SDWebImageSwiftUI */,
+			);
 			productName = GasApp;
 			productReference = 93ACFD652823F7A300DD97C2 /* GasApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +171,9 @@
 				Base,
 			);
 			mainGroup = 93ACFD5C2823F7A300DD97C2;
+			packageReferences = (
+				93771180282487C200ED1BC1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 93ACFD662823F7A300DD97C2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,18 +189,69 @@
 			buildActionMask = 2147483647;
 			files = (
 				93ACFD702823F7A900DD97C2 /* Preview Assets.xcassets in Resources */,
+				93ACFD8428242A5F00DD97C2 /* GoogleService-Info.plist in Resources */,
+				93ACFD7A28241BBF00DD97C2 /* Inter-Regular.ttf in Resources */,
 				93ACFD6D2823F7A900DD97C2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AC84E2DA1D764FD05959801 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GasApp/Pods-GasApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GasApp/Pods-GasApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GasApp/Pods-GasApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		648B14B53917380D4D042933 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GasApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		93ACFD612823F7A300DD97C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93771184282488E100ED1BC1 /* CartModel.swift in Sources */,
+				93ACFD8028241D6900DD97C2 /* CartView.swift in Sources */,
 				93ACFD6B2823F7A300DD97C2 /* ContentView.swift in Sources */,
+				93C7BD1F282476800072F947 /* item.swift in Sources */,
+				9377117F2824867F00ED1BC1 /* itemView.swift in Sources */,
+				93ACFD8228241D8500DD97C2 /* HomeModel.swift in Sources */,
+				93ACFD7C28241C9000DD97C2 /* Home.swift in Sources */,
+				93ACFD7E28241D4700DD97C2 /* Menu.swift in Sources */,
 				93ACFD692823F7A300DD97C2 /* GasAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +375,7 @@
 		};
 		93ACFD742823F7A900DD97C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A013B8BBCC4C9A2248451A75 /* Pods-GasApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -269,6 +384,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GasApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GasApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -289,6 +405,7 @@
 		};
 		93ACFD752823F7A900DD97C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33927CB44BF329E64ADE45F5 /* Pods-GasApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,6 +414,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GasApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GasApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -337,6 +455,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		93771180282487C200ED1BC1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		93771181282487C200ED1BC1 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93771180282487C200ED1BC1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 93ACFD5D2823F7A300DD97C2 /* Project object */;
 }
